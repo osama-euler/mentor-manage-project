@@ -322,6 +322,11 @@ section.testimonials .content .card {
   border-radius: 25px;
   padding: 10px 15px;
 }
+@media(min-width:991px){
+section.testimonials .content .card:nth-child() {
+  display:none;
+}
+}
 @media (max-width: 767px) {
   section.testimonials .content .card:not(:last-of-type) {
     position: absolute;
@@ -353,6 +358,7 @@ section.testimonials ul li {
   border: 1px solid var(--bright-red-color);
   cursor: pointer;
 }
+
 .active {
   background-color: var(--bright-red-color);
 }
