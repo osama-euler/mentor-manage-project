@@ -322,10 +322,11 @@ section.testimonials .content .card {
   border-radius: 25px;
   padding: 10px 15px;
 }
-@media(min-width:991px){
-section.testimonials .content .card:nth-child() {
-  display:none;
-}
+
+@media (min-width: 991px) {
+  section.testimonials .content .card:nth-child(3) {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   section.testimonials .content .card:not(:last-of-type) {
